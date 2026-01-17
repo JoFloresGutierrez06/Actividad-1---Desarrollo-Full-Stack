@@ -1,0 +1,352 @@
+<!-- Version de código modificado por Jocelyn Flores G. el 16/01/2026-->
+<!DOCTYPE html>
+<html lang="es"> <!-- indica que el idioma del documento es español -->
+  <head>
+    <meta charset="UTF-8" /> <!-- Para utiliza caracteres espceciales y tildes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <title>Nexora Labs | Soluciones de Software para empresas</title> 
+    <meta name="description" content="Empresa con las mejores soluciones de servicios de Software">
+    <link rel="stylesheet" href="styles.css" /> <!-- conexion a css-->
+  </head>
+  <body>
+    <a class="skip skip__link" href="#content">Saltar al contenido</a> <!-- No quitar -->
+
+    <header> <!-- Anteriormente> div con class="topbar" -->
+      <div class="container">
+        <div class="brand">
+          <span class="brand__logo">NX</span> <!-- Boton tipo logo -->
+          <div class="brand__text">
+            <h1 class="brand__text brand__name">Nexora Labs</h1> 
+            <h3 class="brand__text brand__tag">Software para equipos modernos</h3> <!-- <span class="brand__tag">Software para equipos modernos</span> -->
+          </div>
+        </div>
+
+        <nav>
+          <ul class="nav">
+            <li class="nav__item"><a href="#home">Inicio</a></li>
+            <li class="nav__item"><a href="#services">Servicios</a></li>
+            <li class="nav__item"><a href="#cases">Casos</a></li>
+            <li class="nav__item"><a href="#pricing">Planes</a></li>
+            <li class="nav__item"><a href="#blog">Blog</a></li>
+            <li class="nav__item"><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="cta">
+          <a class="btn btn--ghost" href="#pricing">Ver planes</a>
+          <a class="btn btn--primary" href="#contact">Pedir demo</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero" id="home">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <h3 class="badge">Nueva versión 2026</h3> <!-- era un span -->
+            <h1 class="hero__title">Plataformas web rápidas, seguras y escalables</h1> <!-- era un div -->
+            <p class="hero__subtitle">
+              Construimos productos digitales para empresas tech: portales, dashboards, herramientas internas y automatización de procesos.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#contact">Agenda una demo</a>
+              <a class="btn btn--ghost btnDemo" href="#cases">Ver resultados</a>
+            </div>
+
+            <div class="hero__stats">
+              <div class="stat">
+                <div class="stat__num">+120</div>
+                <div class="stat__label">proyectos</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">99.9%</div>
+                <div class="stat__label">uptime</div>
+              </div>
+              <div class="stat">
+                <div class="stat__num">24/7</div>
+                <div class="stat__label">soporte</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <div class="card">
+              <h2 class="card__title">Demo rápida</h2>
+              <p class="card__desc">Regístrate para ver el panel de ejemplo y recibir una guía de implementación.</p>
+
+              <form class="form">
+                <div class="form__row">
+                  <label class="form__label" for="nombreDemo">Nombre</label>
+                  <input class="input" type="text" placeholder="Tu nombre" id="nombreDemo">
+                </div>
+                <div class="form__row">
+                  <label class="form__label" for="correoDemo">Correo</label>
+                  <input class="input" type="email" placeholder="tu@correo.com" id="correoDemo">
+                </div>
+                <div class="form__row">
+                  <label class="form__label" for="empresaDemo">Empresa</label>
+                  <input class="input" type="text" placeholder="Nombre de la empresa" id="empresaDemo">
+                </div>
+                <div class="form__row">
+                  <button class="btn btn--primary btn--full" type="button">Solicitar acceso</button>
+                </div>
+                <p class="form__hint">Al enviar aceptas recibir información relacionada. Puedes cancelar cuando quieras.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__kicker">Servicios</h2>
+          <h3 class="section__title">Lo que construimos para equipos tech</h3>
+          <p class="section__desc">Soluciones centradas en rendimiento, mantenimiento y claridad del producto.</p>
+        </div>
+
+        <div class="cards">
+          <div class="card card--soft">
+            <h3 class="card__title">Desarrollo Web</h3>
+            <p class="card__desc">Landing, portales internos, paneles administrativos y apps web.</p>
+            <div class="pill-list">
+              <p class="pill">SEO básico</p>
+              <p class="pill">Accesibilidad</p>
+              <p class="pill">Rendimiento</p>
+            </div>
+          </div>
+
+          <div class="card card--soft">
+            <h3 class="card__title">Automatización</h3>
+            <p class="card__desc">Reportes, flujos y herramientas para reducir tareas repetitivas.</p>
+            <div class="pill-list">
+              <p class="pill">ETL</p>
+              <p class="pill">Dashboards</p>
+              <p class="pill">Integraciones</p>
+            </div>
+          </div>
+
+          <div class="card card--soft">
+            <h3 class="card__title">Soporte y mantenimiento</h3>
+            <p class="card__desc">Corrección, mejoras y evolución de sistemas existentes.</p>
+            <div class="pill-list">
+              <p class="pill">Monitoreo</p>
+              <p class="pill">Backups</p>
+              <p class="pill">Hardening</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="cases">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__kicker">Casos de éxito</h2>
+          <h3 class="section__title">Resultados medibles</h3>
+          <p class="section__desc">Ejemplos de proyectos donde la claridad y estructura mejoraron producto y conversión.</p>
+        </div>
+
+        <div class="cases">
+          <div class="case">
+            <h3 class="case__title">Portal de clientes</h3>
+            <p class="case__desc">Refactor de estructura + nuevo diseño. Mejor navegación y contenido más “entendible” para buscadores.</p>
+            <div class="case__meta">
+              <p class="pill">+28% registros</p>
+              <p class="pill">-35% rebote</p>
+            </div>
+          </div>
+
+          <div class="case">
+            <h3 class="case__title">Dashboard operativo</h3>
+            <p class="case__desc">Estandarización de pantallas y componentes. Mejor legibilidad y menor tiempo de capacitación.</p>
+            <div class="case__meta">
+              <p class="pill">-18% tickets</p>
+              <p class="pill">+22% eficiencia</p>
+            </div>
+          </div>
+
+          <div class="case">
+            <h3 class="case__title">Sitio marketing tech</h3>
+            <p class="case__desc">Headings correctos, metadatos y contenido ordenado. Mejor indexación y páginas más rápidas.</p>
+            <div class="case__meta">
+              <p class="pill">+40% tráfico</p>
+              <p class="pill">+12% leads</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials">
+          <div class="quote">
+            <p class="quote__text">“La nueva estructura hizo más fácil encontrar información y mejoró cómo nos ven en Google.”</p>
+            <div class="quote__by">— Equipo de Producto</div>
+          </div>
+          <div class="quote">
+            <p class="quote__text">“Se ve más profesional, la gente entiende qué hacemos en 10 segundos.”</p>
+            <div class="quote__by">— Marketing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__kicker">Planes</h2>
+          <h3 class="section__title">Escoge un plan</h3>
+          <p class="section__desc">El éxito de tu empresa puede despegar aún más con el plan adecuado.</p>
+        </div>
+
+        <div class="pricing">
+          <div class="plan">
+            <h3 class="plan__name">Starter</h3>
+            <p class="plan__price">$199</p>
+            <p class="plan__desc">Para una landing + SEO básico</p>
+              <ul class="plan__list">
+                <li>1 sitio</li>
+                <li>Soporte básico</li>
+                <li>Checklist SEO</li>
+              </ul>
+            <a class="btn btn--ghost btn--full" href="#contact">Elegir</a>
+          </div>
+
+          <div class="plan plan--featured">
+            <h3 class="plan__name">Pro</h3>
+            <p class="plan__price">$499</p>
+            <p class="plan__desc">Para portales y paneles internos</p>
+            <ul class="plan__list">
+              <li>3 módulos</li>
+              <li>Soporte prioritario</li>
+              <li>Optimización de contenido</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contact">Elegir</a>
+          </div>
+
+          <div class="plan">
+            <h3 class="plan__name">Enterprise</h3>
+            <p class="plan__price">$999</p>
+            <p class="plan__desc">Para sistemas a medida</p>
+            <ul class="plan__list">
+              <li>Integraciones</li>
+              <li>Monitoreo</li>
+              <li>Hardening</li>
+            </ul>
+            <a class="btn btn--ghost btn--full" href="#contact">Elegir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="blog">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__kicker">Blog</h2>
+          <h3 class="section__title">Lecturas rápidas</h3>
+          <p class="section__desc">Enriquece tu conocimiento con artículos sobre desarrollo web. Quiero dormir.</p>
+        </div>
+
+        <div class="posts">
+          <article class="post">
+            <h3 class="post__title">Cómo estructurar una landing para claridad</h3>
+            <p class="post__desc">Orden visual + headings correctos = mensajes claros para usuarios y buscadores.</p>
+            <p class="post__meta">5 min • UX/SEO</p>
+          </article>
+          <article class="post">
+            <h3 class="post__title">Errores comunes con divs y spans</h3>
+            <p class="post__desc">Cuando todo es un div, nadie entiende nada (ni tu yo del futuro).</p>
+            <p class="post__meta">6 min • HTML</p>
+          </article>
+          <article class="post">
+            <h3 class="post__title">CSS: menos reglas, mejor resultado</h3>
+            <p class="post__desc">Aprende a estilizar con intención: jerarquía, espaciado y contraste.</p>
+            <p class="post__meta">4 min • CSS</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__kicker">Contacto</h2>
+          <h3 class="section__title">Hablemos</h3>
+          <p class="section__desc">Nos importa escucharte y conocer en qué puedes necesitar ayuda.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__left">
+            <div class="card card--soft">
+              <h3 class="card__title">Información</h3>
+              <p class="card__desc">Horario: Lun–Vie 9:00–18:00</p>
+              <p class="card__desc">Ubicación: Remoto / México</p>
+              <p class="card__desc">Correo: contacto@nexora.example</p>
+            </div>
+          </div>
+
+          <div class="contact__right">
+            <div class="card">
+              <h3 class="card__title">Escríbenos</h3>
+              <form class="form">
+                <div class="form__row">
+                  <label class="form__label" for="nombreContacto">Nombre</label>
+                  <input id="nombreContacto" class="input" type="text" placeholder="Tu nombre"><!-- hacer el cambio de label y for -->
+                </div>
+                <div class="form__row">
+                  <label class="form__label" for="correoContacto">Correo</label>
+                  <input id="correoContacto" class="input" type="email" placeholder="tu@correo.com">
+                </div>
+                <div class="form__row">
+                  <label class="form__label" for="mensajeContacto">Mensaje</label>
+                  <textarea id="mensajeContacto" class="input" rows="5" placeholder="Cuéntanos lo que necesitas"></textarea>
+                </div>
+                <div class="form__row">
+                  <button class="btn btn--primary btn--full" type="button">Enviar</button>
+                </div>
+                <div class="form__hint">Nota: nos aseguraremos de ponernos en contacto.</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <h2 class="footer__brand">Nexora Labs</h2>
+            <p class="footer__text">Creamos software para equipos que quieren velocidad y claridad.</p><br>
+          </div>
+          <div>
+            <h3 class="footer__title">Secciones</h3>
+            <ul class="footer__links">
+              <li><a href="#home">Inicio</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#cases">Casos</a></li>
+              <li><a href="#pricing">Planes</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <br>
+          </div>
+          <div>
+            <h3 class="footer__title">Redes</h3>
+            <ul class="footer__links">
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">X</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© 2026 Nexora Labs</p>
+          <p>Hecho para práctica académica</p>
+          <p><i>Nota:</i> Esto no está tan fácil como parece. Es muy tardado, profe.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
